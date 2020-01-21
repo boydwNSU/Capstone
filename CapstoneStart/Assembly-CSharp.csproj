@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{68935561-146A-092C-1CE2-388EF65D57EF}</ProjectGuid>
+    <ProjectGuid>{2258E626-B0A1-DA7D-39B2-50C2CA4472FA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,6 +56,9 @@
      <Compile Include="Assets\Blind\BlindMovement.cs" />
      <Compile Include="Assets\Blind\TheBlindPatrol.cs" />
      <Compile Include="Assets\PlayerMovement.cs" />
+     <Compile Include="Assets\ThirdPersonCameraController.cs" />
+     <Compile Include="Assets\ThirdPersonCharacter.cs" />
+     <Compile Include="Assets\ThirdPersonCharacterController.cs" />
      <Compile Include="Assets\UMotionExamples\Miscellaneous\Scripts\ResetPosition.cs" />
      <None Include="Assets\UMotionEditor\Shaders\UnlitDashedLine.shader" />
      <None Include="Assets\UMotionEditor\Shaders\VertexColorUnlit.shader" />
@@ -65,19 +68,19 @@
      <None Include="Assets\UMotionEditor\Shaders\WiresOnly.shader" />
      <None Include="Assets\UMotionEditor\Shaders\CameraLit.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>E:/Unity/New Unity Project (2)/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>E:/Unity/CapstoneStart/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>E:/Unity/New Unity Project (2)/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>E:/Unity/CapstoneStart/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>E:/Unity/New Unity Project (2)/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>E:/Unity/CapstoneStart/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>E:/Unity/New Unity Project (2)/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>E:/Unity/CapstoneStart/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>E:/Unity/New Unity Project (2)/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>E:/Unity/CapstoneStart/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -280,17 +283,17 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
+ <Reference Include="UMotionApplication">
+ <HintPath>E:/Unity/CapstoneStart/Assets/UMotionEditor/Plugins/Application/UMotionApplication.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>E:/Unity/New Unity Project (2)/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>E:/Unity/CapstoneStart/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>E:/Unity/New Unity Project (2)/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>E:/Unity/CapstoneStart/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>E:/Unity/New Unity Project (2)/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
- </Reference>
- <Reference Include="UMotionApplication">
- <HintPath>E:/Unity/New Unity Project (2)/Assets/UMotionEditor/Plugins/Application/UMotionApplication.dll</HintPath>
+ <HintPath>E:/Unity/CapstoneStart/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>D:/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -640,9 +643,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UMotionSourceApplication.csproj">
-      <Project>{AE6AAC2F-E1F1-E2AB-2015-0A86B3B10C87}</Project>      <Name>UMotionSourceApplication</Name>    </ProjectReference>
+      <Project>{BF5F9D19-1E1F-9000-EE42-834B8B14D0D9}</Project>      <Name>UMotionSourceApplication</Name>    </ProjectReference>
     <ProjectReference Include="UMotionSourceEditor.csproj">
-      <Project>{021839FD-CFFA-E771-CB26-7943D48F3330}</Project>      <Name>UMotionSourceEditor</Name>    </ProjectReference>
+      <Project>{7CEF0F85-5B04-6C4D-0F7F-8EF975485753}</Project>      <Name>UMotionSourceEditor</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
