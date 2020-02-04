@@ -1,0 +1,121 @@
+# Exported from Fuse 2017.1.0
+
+newmtl Hat
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d CapstoneSoldier_Hat_Opacity.png
+map_Kd CapstoneSoldier_Hat_Diffuse.png
+adobe_map_normal CapstoneSoldier_Hat_Normal.png
+map_Ks CapstoneSoldier_Hat_Specular.png
+adobe_map_shininess CapstoneSoldier_Hat_Gloss.png
+
+newmtl Hair
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d CapstoneSoldier_Hair_Opacity.png
+map_Kd CapstoneSoldier_Hair_Diffuse.png
+adobe_map_normal CapstoneSoldier_Hair_Normal.png
+map_Ks CapstoneSoldier_Hair_Specular.png
+adobe_map_shininess CapstoneSoldier_Hair_Gloss.png
+
+newmtl Bottom
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d CapstoneSoldier_Bottom_Opacity.png
+map_Kd CapstoneSoldier_Bottom_Diffuse.png
+adobe_map_normal CapstoneSoldier_Bottom_Normal.png
+map_Ks CapstoneSoldier_Bottom_Specular.png
+adobe_map_shininess CapstoneSoldier_Bottom_Gloss.png
+
+newmtl Shoes
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d CapstoneSoldier_Shoes_Opacity.png
+map_Kd CapstoneSoldier_Shoes_Diffuse.png
+adobe_map_normal CapstoneSoldier_Shoes_Normal.png
+map_Ks CapstoneSoldier_Shoes_Specular.png
+adobe_map_shininess CapstoneSoldier_Shoes_Gloss.png
+
+newmtl Top
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d CapstoneSoldier_Top_Opacity.png
+map_Kd CapstoneSoldier_Top_Diffuse.png
+adobe_map_normal CapstoneSoldier_Top_Normal.png
+map_Ks CapstoneSoldier_Top_Specular.png
+adobe_map_shininess CapstoneSoldier_Top_Gloss.png
+
+newmtl Glove
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d CapstoneSoldier_Glove_Opacity.png
+map_Kd CapstoneSoldier_Glove_Diffuse.png
+adobe_map_normal CapstoneSoldier_Glove_Normal.png
+map_Ks CapstoneSoldier_Glove_Specular.png
+adobe_map_shininess CapstoneSoldier_Glove_Gloss.png
+
+newmtl Body
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d CapstoneSoldier_Body_Opacity.png
+map_Kd CapstoneSoldier_Body_Diffuse.png
+adobe_map_normal CapstoneSoldier_Body_Normal.png
+map_Ks CapstoneSoldier_Body_Specular.png
+adobe_map_shininess CapstoneSoldier_Body_Gloss.png
+
