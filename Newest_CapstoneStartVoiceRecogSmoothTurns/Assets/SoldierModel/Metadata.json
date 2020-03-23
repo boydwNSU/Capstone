@@ -1,0 +1,15 @@
+{
+  "FuseRigger": {
+    "UVScaleY": 1.0,
+    "UVScaleX": 1.0,
+    "FaceTemplate": "MaleFitA_v3",
+    "UVTranslateY": 0.0,
+    "UVTranslateX": 0.0,
+    "UVBlendshape": [
+      "default",
+      "Eyes",
+      "Body"
+    ],
+    "DistanceBlendshape": []
+  }
+}
