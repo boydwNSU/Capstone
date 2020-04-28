@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{2258E626-B0A1-DA7D-39B2-50C2CA4472FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMotionSourceApplication", "UMotionSourceApplication.csproj", "{BF5F9D19-1E1F-9000-EE42-834B8B14D0D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMotionSourceEditor", "UMotionSourceEditor.csproj", "{7CEF0F85-5B04-6C4D-0F7F-8EF975485753}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2258E626-B0A1-DA7D-39B2-50C2CA4472FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2258E626-B0A1-DA7D-39B2-50C2CA4472FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2258E626-B0A1-DA7D-39B2-50C2CA4472FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2258E626-B0A1-DA7D-39B2-50C2CA4472FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF5F9D19-1E1F-9000-EE42-834B8B14D0D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF5F9D19-1E1F-9000-EE42-834B8B14D0D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF5F9D19-1E1F-9000-EE42-834B8B14D0D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF5F9D19-1E1F-9000-EE42-834B8B14D0D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CEF0F85-5B04-6C4D-0F7F-8EF975485753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CEF0F85-5B04-6C4D-0F7F-8EF975485753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CEF0F85-5B04-6C4D-0F7F-8EF975485753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CEF0F85-5B04-6C4D-0F7F-8EF975485753}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
